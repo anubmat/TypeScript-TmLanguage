@@ -8,7 +8,7 @@ var register = new vt.Registry();
 var tsGrammar = register.loadGrammarFromPathSync("../TypeScript.tmLanguage");
 var tsReactGrammar = register.loadGrammarFromPathSync("../TypeScriptReact.tmLanguage");
 
-const marker = '^';
+const marker = '@';
 
 function deleteCharAt(index: number, str: string) {
     return str.slice(0, index) + str.slice(index + 1);
